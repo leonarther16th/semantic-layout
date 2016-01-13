@@ -1,0 +1,39 @@
+<head>
+	<title>testing-semantic</title>
+</head>
+<body>
+	{{> topNav}}
+	
+	
+	
+	
+	<div class="ui centered grid container" id="main-container">
+		
+		<div class="row">
+			<div class="sixteen wide column">
+				<div class="ui tall segment">
+				  <p>Welcome to Elemni, please take a moment to view the available courses, and feel free to create a few other classes that are of your interest</p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="sixteen wide column">
+				<h1>Course list</h1>
+				{{> cards }}
+			</div>
+			
+		</div>
+		
+	</div>
+	
+</body>
+<template name="hello">
+<button class="ui secondary button">
+Okay
+</button>
+<button class="ui button">
+Cancel
+</button>
+<p>You've pressed the button {{counter}} times.</p>
+</template>
